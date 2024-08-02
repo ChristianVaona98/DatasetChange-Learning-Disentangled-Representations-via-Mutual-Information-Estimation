@@ -1,6 +1,6 @@
 # Learning Disentangled Representations via Mutual Information Estimation
 
-N.B.: Extract the data file .zip in the 'data/SmallNORB' folder before running the project!
+N.B.: Download the dataset file and extract them in the 'data/SmallNORB' folder before running the project!
 
 # Training commands
 ## Start shared representation training
