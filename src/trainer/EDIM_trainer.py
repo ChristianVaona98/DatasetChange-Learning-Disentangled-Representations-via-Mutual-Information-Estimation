@@ -230,7 +230,6 @@ class EDIMTrainer:
                         discr_outputs=discr_outputs
                     )
 
-                    # TODO: ClassificationOutputs da capire bene
                     edim_classif_outputs = self.model.forward_classifier(
                         edim_outputs=edim_outputs
                     )
