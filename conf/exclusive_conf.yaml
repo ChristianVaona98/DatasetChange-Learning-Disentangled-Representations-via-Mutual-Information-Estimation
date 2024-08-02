@@ -1,0 +1,23 @@
+training_stage: exclusive
+
+training_param:
+  batch_size : 64
+  learning_rate : 0.0003
+  device: cuda
+  epochs : 16
+
+model_param:
+  img_size : 96
+  channels : 1
+  exclusive_dim: 24
+  switched : True
+  
+shared_param:
+  img_size : 96
+  shared_dim : 64
+  feature_size : 21
+
+loss_param:
+  local_mutual_loss_coeff: 1
+  global_mutual_loss_coeff: 0.5
+  disentangling_loss_coeff: 0.1
